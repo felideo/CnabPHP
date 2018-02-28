@@ -44,14 +44,17 @@ class Especie
     const BB_DUPLICATA_MERCANTIL = 2;
     const BB_DUPLICATA_DE_SERVICO = 4;
 
-    // Santander
-    const SANTANDER_DUPLICATA            = '01';
-    const SANTANDER_NOTA_PROMISSORIA     = '02';
-    const SANTANDER_NOTA_DE_SEGURO       = '03';
-    const SANTANDER_RECIBO               = '05';
-    const SANTANDER_DUPLICATA_DE_SERVICO = '06';
-    const SANTANDER_LETRA_DE_CAMBIO      = '07';
-    const SANTANDER_DUPLICATA_MERCANTIL  = '02';
+    // Santander - Atualizado 2018-02-28
+    const SANTANDER_DUPLICATA_MERCANTIL     = '02';
+    const SANTANDER_DUPLICATA_DE_SERVICO    = '04';
+    const SANTANDER_NOTA_PROMISSORIA        = '12';
+    const SANTANDER_APOLICE_DE_SEGURO       = '20';
+    const SANTANDER_NOTA_PROMISSORIA_RURAL  = '13';
+    const SANTANDER_RECIBO                  = '17';
+    const SANTANDER_CARTAO_DE_CREDITO       = '31';
+    const SANTANDER_BOLETO_DE_PROPOSTA      = '32';
+    const SANTANDER_CHEQUE                  = '97';
+    const SANTANDER_NOTA_PROMISSORIA_DIRETA = '98';
 
     //Outros
     const CNAB240_OUTROS = '99';
